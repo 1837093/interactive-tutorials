@@ -1,16 +1,20 @@
 Tutorial
 --------
+An HTML table is explained with the <table> tag.
 
-This page is empty. You are welcome to contribute the content by sending me a pull request:
+Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. Table headings are bold and centered unless changed.
 
-[[https://github.com/ronreiter/interactive-tutorials]]
+
+
 
 Exercise
 --------
+1. Add a &lt;table&gt; tag
+2. Add a &lt;tr&gt; tag
+3. Add a &lt;th&gt; tag with the text "First Column"
+4. Close the &lt;/tr&gt; tag
+5. Close the &lt;/table&gt; tag
 
-This page does not have an exercise yet. You are welcome to contribute one by sending me a pull request:
-
-[[https://github.com/ronreiter/interactive-tutorials]]
 
 
 Tutorial Code
@@ -18,9 +22,14 @@ Tutorial Code
 
     <!DOCTYPE html>
     <html>
-        <head>
-        </head>
         <body>
+        <table>
+        <tr>
+        <th>This</th>
+        <th>Is a</th>
+        <th>Table</th>
+        </tr>
+        </table>
         </body>
     </html>
     
@@ -29,11 +38,12 @@ Expected Output
 
     <!DOCTYPE html>
     <html>
-        <head>
-            <title>Hello, World!</title>
-        </head>
-        <body>
-            <p>Hello, World!</p>
+    <body>
+            <table>
+            <tr>
+            <th>First Column</th>
+            </tr>
+            </table>
         </body>
     </html>
 
@@ -42,10 +52,12 @@ Solution
 
     <!DOCTYPE html>
     <html>
-        <head>
-            <title>Hello, World!</title>
-        </head>
-        <body>
-            <p>Hello, World!</p>
+    <body>
+            <table>
+            <tr>
+            <th>First Column</th>
+            </tr>
+            </table>
+        </body>
         </body>
     </html>
